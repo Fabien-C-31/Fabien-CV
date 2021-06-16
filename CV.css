@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'open-sans';
+    src: url('OpenSans-Regular.ttf') format('truetype'),
+    	 
+}
+
+*
+{
+	font-family: 'open-sans',Arial, Verdana, "Times New Roman", "Courier New", Georgia, sans-serif;
+	
+}
+
+body
+{
+    font-size: 1.2em;
+	background-color: #E1F2FC;
+	color: black;
+}
+
+img 
+{
+    width: 10%;
+}
+
+h1
+{
+    font-size: 600%;
+    text-align: center;
+    color: rgb(250,250,250);
+    background-color: black;
+    opacity: 1.8;
+    border: 12px white double;
+    box-shadow: 4px 4px 2px white;
+    width: 75%;
+    position: relative;
+    left: 10%;
+}
+
+.h1p
+{
+    font-size: 180%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+h2
+{
+    font-size: 200%;
+	color: black;
+	text-align: center;
+	border: 6px white solid;
+}
+
+p
+{
+    text-align: center;
+    width: 75%;
+    position: relative;
+    left: 15%;
+}
+
+.ici
+{
+	color: green;
+	font-style: italic;
+}
+
+.ici:hover
+{
+	color:blue;
+}
+
+.ici:focus
+{
+	color: green;
+}
+.xp {
+    width: 30%;
+    position: relative;
+    left: 5%;
+    text-align: justify;
+    display: inline-table;
+    font-size: 2 em;
+}
+
+.comp {
+    width: 30%;
+    position: relative;
+    left: 5%;
+    text-align: justify;
+    display: inline-table;
+    font-size: 2 em;
+}
+.form {
+    width: 30%;
+    position: relative;
+    left: 5%;
+    text-align: justify;
+    display: inline-table;
+    font-size: 2 em;
+}
+
+.footer
+{
+    font-size: 150%;
+}
